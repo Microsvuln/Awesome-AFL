@@ -3,7 +3,7 @@ Welcome to Awesome AFL
 ========================================================
 A curated list of all AFL customized versions &amp; sister projects with detailed equivalent academic papers
 
-### Contents
+### Projects
 - [AFL](http://lcamtuf.coredump.cx/afl/) by [Michal Zalewski](http://lcamtuf.coredump.cx/)
   + Original & first versions of AFL fuzzer, american fuzzy lop is a free security-oriented fuzzer that employs genetic algorithms in order to efficiently increase code coverage of the test cases. So far it helped in detection of significant software bugs in dozens of major free software projects, including X.Org Server, PHP, OpenSSL, pngcrush, bash, Firefox, BIND, Qt, and SQLite. 
 
@@ -45,5 +45,8 @@ A curated list of all AFL customized versions &amp; sister projects with detaile
 
 
 
+### Tutorials
+- [AFL-Workshop](https://github.com/mykter/afl-training)
+  + Materials of the "Fuzzing with AFL" workshop by Michael Macnair (@michael_macnair).
 
 
