@@ -40,7 +40,8 @@ A curated list of all AFL customized versions &amp; sister projects with detaile
 - [AngoraFuzzer](https://github.com/AngoraFuzzer/Angora)
   + Angora is a mutation-based fuzzer. The main goal of Angora is to increase branch coverage by solving path constraints without symbolic execution. Angora: Efficient Fuzzing by Principled Search (https://arxiv.org/abs/1803.01307)
   
-  
+- [VUzzer](https://github.com/vusec/vuzzer) by [Systems and Network Security Group at VU Amsterdam](https://www.vusec.net/)
+  + VUzzer: Application-aware Evolutionary Fuzzing (https://www.cs.vu.nl/~giuffrida/papers/vuzzer-ndss-2017.pdf)
 
 
 
