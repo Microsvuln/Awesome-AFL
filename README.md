@@ -16,7 +16,7 @@ A curated list of all AFL customized versions &amp; sister projects with detaile
 - [aflsmart](https://github.com/aflsmart/aflsmart) by [Marcel Böhme](https://github.com/mboehme)
   + Smart Greybox Fuzzing (https://thuanpv.github.io/publications/TSE19_aflsmart.pdf) 
 
-- [WineAFLplusplusDEMO](https://github.com/andreafioraldi/WineAFLplusplusDEMO) by [Andrea Fioraldi](https://github.com/andreafioraldi_
+- [WineAFLplusplusDEMO](https://github.com/andreafioraldi/WineAFLplusplusDEMO) by [Andrea Fioraldi](https://github.com/andreafioraldi)
   + A set of helpers and examples to fuzz Win32 binaries with AFL++ QEMU
 
 - [afl-sensitive](https://github.com/bitsecurerlab/afl-sensitive/tree/cgc) by [Heng Yin](https://www.cs.ucr.edu/~heng/)
