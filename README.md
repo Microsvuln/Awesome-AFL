@@ -6,6 +6,16 @@ A curated list of all AFL customized versions &amp; sister projects with detaile
 ### Contents
 - [AFL++](https://github.com/vanhauser-thc/AFLplusplus) by [van Hauser](https://github.com/vanhauser-thc) 
   + afl++ is afl 2.56b with community patches, AFLfast power schedules, qemu 3.1 upgrade + laf-intel support, MOpt mutators, InsTrim instrumentation, unicorn_mode and a lot more!
+- [WinAFL](https://github.com/googleprojectzero/winafl) by [Ivan Fratric](https://github.com/ifratric)
+  + A fork of AFL for fuzzing Windows binaries
+
+
+
+
+
+
+
+
 
 - [WinAFL](https://github.com/vanhauser-thc/AFLplusplus) by [van Hauser](https://github.com/vanhauser-thc)
 
