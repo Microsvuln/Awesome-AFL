@@ -37,8 +37,8 @@ A curated list of all AFL customized versions &amp; sister projects with detaile
 - [Driller](https://github.com/shellphish/driller) by [Shellphish team of University of Santa Barbara](https://github.com/shellphish)
   + Augmenting AFL with Symbolic execution, a powerful symbolic execution engine aims at hybrid fuzzing
   
-  
-  
+- [AngoraFuzzer](https://github.com/AngoraFuzzer/Angora)
+  + Angora is a mutation-based fuzzer. The main goal of Angora is to increase branch coverage by solving path constraints without symbolic execution. Angora: Efficient Fuzzing by Principled Search (https://arxiv.org/abs/1803.01307)
   
   
 
