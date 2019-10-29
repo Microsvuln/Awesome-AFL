@@ -4,7 +4,12 @@ Welcome to Awesome AFL
 A curated list of all AFL customized versions &amp; sister projects with detailed equivalent academic papers
 
 ### Contents
-- [AFL++](https://github.com/vanhauser-thc/AFLplusplus) by by [van Hauser](https://github.com/vanhauser-thc)
+- [AFL++](https://github.com/vanhauser-thc/AFLplusplus) by [van Hauser](https://github.com/vanhauser-thc) 
+  + afl++ is afl 2.56b with community patches, AFLfast power schedules, qemu 3.1 upgrade + laf-intel support, MOpt mutators, InsTrim instrumentation, unicorn_mode and a lot more!
+
+- [WinAFL](https://github.com/vanhauser-thc/AFLplusplus) by [van Hauser](https://github.com/vanhauser-thc)
+
+
 
 - [Videos](#videos)
   + [NYU Poly Course videos](#nyu-poly-course-videos)
