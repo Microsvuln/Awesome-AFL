@@ -49,6 +49,9 @@ A curated list of all AFL customized versions &amp; sister projects with detaile
 - [QSym](https://github.com/sslab-gatech/qsym) by [SSLab of Georgia Tech University](https://gts3.org/)
   + QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing
 
+- [netafl](https://gitlab.com/gavz/netafl) by [gavz](https://gitlab.com/gavz)
+  + winAFL patch to enable network-based apps fuzzing
+
 
 
 
