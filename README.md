@@ -45,6 +45,11 @@ A curated list of all AFL customized versions &amp; sister projects with detaile
 
 - [Manul](https://github.com/mxmssh/manul) by [Maksim Shudrak](https://github.com/mxmssh)
   + Manul is a coverage-guided parallel fuzzer for open-source and blackbox binaries on Windows, Linux and MacOS (https://www.slideshare.net/MaximShudrak/shudrak-zero-bugs-found-hold-my-beer-afl-how-to-improve-coverageguided-fuzzing-and-find-new-zerodays-in-tough-targets)
+  
+- [QSym](https://github.com/sslab-gatech/qsym) by [SSLab of Georgia Tech University](https://gts3.org/)
+  + QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing
+
+
 
 
 ### Tutorials
