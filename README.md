@@ -47,6 +47,7 @@ A curated list of all AFL customized versions &amp; sister projects with detaile
 
 ### Tutorials
 - [AFL-Workshop](https://github.com/mykter/afl-training)
-  + Materials of the "Fuzzing with AFL" workshop by Michael Macnair (@michael_macnair).
-
+  + Materials of the "Fuzzing with AFL" workshop by Michael Macnair (@michael_macnair)
+  
+- [Software Exploit Development – Fuzzing with AFL](http://thecyberrecce.net/2017/03/20/software-exploit-development-fuzzing-with-afl/)
 
