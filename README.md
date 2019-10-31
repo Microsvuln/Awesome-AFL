@@ -75,5 +75,5 @@ A curated list of all AFL customized versions &amp; sister projects with detaile
 
 - [Effective AFL Fuzzing 1: Better Harness](https://oxhat.blogspot.com/2018/09/effective-afl-fuzzing-1-better-harness.html)
 
-
+- [AFL / WinAFL Tips and Tricks](https://blog.fadyothman.com/afl-tips-tricks/)
 
