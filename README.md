@@ -77,3 +77,4 @@ A curated list of all AFL customized versions &amp; sister projects with detaile
 
 - [AFL / WinAFL Tips and Tricks](https://blog.fadyothman.com/afl-tips-tricks/)
 
+- [Hunting For Bugs With AFL 101 - A PRIMER](https://research.aurainfosec.io/hunting-for-bugs-101/)
