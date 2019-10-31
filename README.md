@@ -52,6 +52,8 @@ A curated list of all AFL customized versions &amp; sister projects with detaile
 - [netafl](https://gitlab.com/gavz/netafl) by [gavz](https://gitlab.com/gavz)
   + winAFL patch to enable network-based apps fuzzing
 
+- [Unicorefuzz](https://github.com/fgsect/unicorefuzz) by [The Computer Security Group at Berlin University of Technology](https://github.com/fgsect)
+  + Fuzzing the Kernel using AFL Unicorn. For details, skim through the WOOT paper or watch this talk at CCCamp19 (https://www.usenix.org/system/files/woot19-paper_maier.pdf)
 
 
 
