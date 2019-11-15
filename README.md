@@ -63,6 +63,8 @@ A curated list of all AFL customized versions &amp; sister projects with detaile
 
 - [SharpFuzz: AFL-based fuzz testing for .NET](https://github.com/Metalnem/sharpfuzz) by [Nemanja Mijailovic](https://github.com/Metalnem)
   + SharpFuzz is a tool that brings the power of afl-fuzz to .NET platform (https://mijailovic.net/2019/01/03/sharpfuzz/)
+  
+- [Nautilus - a grammar based feedback fuzzer](https://github.com/RUB-SysSec/nautilus) by [Syssec lab of Ruhr university of germany](https://github.com/RUB-SysSec/nautilus) 
 
 
 ### Tutorials
