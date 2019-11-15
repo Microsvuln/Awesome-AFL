@@ -71,6 +71,10 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
 
 - [UnTracer-AFL](https://github.com/FoRTE-Research/UnTracer-AFL) by Stefan Nagy (snagy2@vt.edu) and Matthew Hicks (mdhicks2@vt.edu)
   + [Full-speed Fuzzing: Reducing Fuzzing Overhead through Coverage-guided Tracing](https://arxiv.org/abs/1812.11875)
+  
+- [kleefl](https://github.com/julieeen/kleefl) by [julieeen](https://github.com/julieeen/kleefl)
+  + Seeding fuzzers with symbolic execution
+
 
 
 ### Tutorials
