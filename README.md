@@ -125,3 +125,7 @@ A curated list of all AFL customized versions &amp; sister projects with detaile
 - [Fuzzing projects with american fuzzy lop (AFL)]https://0x00sec.org/t/fuzzing-projects-with-american-fuzzy-lop-afl/6498]
 
 - [Fuzzing with AFL](https://breaking-bits.gitbook.io/breaking-bits/vulnerability-discovery/fuzzing-with-afl)
+
+- [Starting fuzz with AFL](https://www.w0lfzhang.com/2017/11/30/Starting-fuzz-with-AFL/)
+
+- [afl-unicorn: Fuzzing Arbitrary Binary Code](https://hackernoon.com/afl-unicorn-fuzzing-arbitrary-binary-code-563ca28936bf)
