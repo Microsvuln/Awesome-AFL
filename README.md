@@ -120,3 +120,4 @@ A curated list of all AFL customized versions &amp; sister projects with detaile
 
 - [Finding pearls; fuzzing ClamAV](https://foxglovesecurity.com/2016/06/13/finding-pearls-fuzzing-clamav/)
 
+- [Tutorial: Fuzzing GIMP](https://flimp.fuzzing-project.org/tutorial-fuzzing-gimp.html)
