@@ -74,6 +74,9 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
 - [AFL-Workshop](https://github.com/mykter/afl-training)
   + Materials of the "Fuzzing with AFL" workshop by Michael Macnair (@michael_macnair)
   
+- [Fuzzing with AFL is an Art](https://moyix.blogspot.com/2016/07/fuzzing-with-afl-is-an-art.html#:~:targetText=American%20Fuzzy%20Lop%2C%20or%20AFL,vulnerabilities%20in%20high%2Dprofile%20software.)
+  + an awesome AFL coverage improvement idea by [Brendan Dolan-Gavitt aka moyix](https://twitter.com/moyix) of Computer Science and Engineering Department at NYU-Poly
+  
 - [Software Exploit Development – Fuzzing with AFL](http://thecyberrecce.net/2017/03/20/software-exploit-development-fuzzing-with-afl/)
 
 - [Basic usage of American Fuzzy Lop with real world examples](https://volatileminds.net/2015/06/29/basic-afl-usage.html)
