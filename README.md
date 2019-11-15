@@ -111,4 +111,4 @@ A curated list of all AFL customized versions &amp; sister projects with detaile
 
 - [Fuzzing arbitrary functions in ELF binaries](https://blahcat.github.io/2018/03/11/fuzzing-arbitrary-functions-in-elf-binaries/)
 
--
+- [Filesystem Fuzzing with American Fuzzy Lop](https://events.static.linuxfound.org/sites/events/files/slides/AFL%20filesystem%20fuzzing%2C%20Vault%202016_0.pdf)
