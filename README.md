@@ -122,7 +122,7 @@ A curated list of all AFL customized versions &amp; sister projects with detaile
 
 - [Tutorial: Fuzzing GIMP](https://flimp.fuzzing-project.org/tutorial-fuzzing-gimp.html)
 
-- [Fuzzing projects with american fuzzy lop (AFL)]https://0x00sec.org/t/fuzzing-projects-with-american-fuzzy-lop-afl/6498]
+- [Fuzzing projects with american fuzzy lop (AFL)](https://0x00sec.org/t/fuzzing-projects-with-american-fuzzy-lop-afl/6498)
 
 - [Fuzzing with AFL](https://breaking-bits.gitbook.io/breaking-bits/vulnerability-discovery/fuzzing-with-afl)
 
