@@ -69,6 +69,9 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
   
 - [frida-js-afl-instr](https://github.com/andreafioraldi/frida-js-afl-instr) by [Andrea Fioraldi](https://github.com/andreafioraldi)  
 
+- [UnTracer-AFL](https://github.com/FoRTE-Research/UnTracer-AFL) by Stefan Nagy (snagy2@vt.edu) and Matthew Hicks (mdhicks2@vt.edu)
+  + [Full-speed Fuzzing: Reducing Fuzzing Overhead through Coverage-guided Tracing](https://arxiv.org/abs/1812.11875)
+
 
 ### Tutorials
 - [AFL-Workshop](https://github.com/mykter/afl-training)
