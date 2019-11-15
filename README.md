@@ -65,6 +65,9 @@ A curated list of all AFL customized versions &amp; sister projects with detaile
   + SharpFuzz is a tool that brings the power of afl-fuzz to .NET platform (https://mijailovic.net/2019/01/03/sharpfuzz/)
   
 - [Nautilus - a grammar based feedback fuzzer](https://github.com/RUB-SysSec/nautilus) by [Syssec lab of Ruhr university of germany](https://github.com/RUB-SysSec/nautilus) 
+  + https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2018/12/17/NDSS19-Nautilus.pdf
+  
+- [frida-js-afl-instr](https://github.com/andreafioraldi/frida-js-afl-instr) by [Andrea Fioraldi](https://github.com/andreafioraldi)  
 
 
 ### Tutorials
@@ -112,3 +115,8 @@ A curated list of all AFL customized versions &amp; sister projects with detaile
 - [Fuzzing arbitrary functions in ELF binaries](https://blahcat.github.io/2018/03/11/fuzzing-arbitrary-functions-in-elf-binaries/)
 
 - [Filesystem Fuzzing with American Fuzzy Lop](https://events.static.linuxfound.org/sites/events/files/slides/AFL%20filesystem%20fuzzing%2C%20Vault%202016_0.pdf)
+
+- [Fuzzing workflows; a fuzz job from start to finish](https://foxglovesecurity.com/2016/03/15/fuzzing-workflows-a-fuzz-job-from-start-to-finish/)
+
+- [Finding pearls; fuzzing ClamAV](https://foxglovesecurity.com/2016/06/13/finding-pearls-fuzzing-clamav/)
+
