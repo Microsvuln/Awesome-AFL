@@ -104,3 +104,5 @@ A curated list of all AFL customized versions &amp; sister projects with detaile
 - [How to Use Fuzzing in Security Research](https://www.ixiacom.com/company/blog/how-use-fuzzing-security-research)
 
 - [Investigating Windows Graphics Vulnerabilities: A Reverse Engineering and Fuzzing Story](https://www.ixiacom.com/company/blog/investigating-windows-graphics-vulnerabilities-reverse-engineering-and-fuzzing-story)
+
+- [Hunting For Bugs With AFL 101 - A PRIMER](https://research.aurainfosec.io/hunting-for-bugs-101/)
