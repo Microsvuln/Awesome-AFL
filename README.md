@@ -75,7 +75,7 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
 - [kleefl](https://github.com/julieeen/kleefl) by [julieeen](https://github.com/julieeen/kleefl)
   + Seeding fuzzers with symbolic execution
   
-- [AFLGo](https://github.com/aflgo/aflgo) by  Marcel Böhme , Thuan Pham  and Manh-Dung Nguyen
+- [AFLGo](https://github.com/aflgo/aflgo) Maintained by @mboehme, @thuanpv, and @strongcourage
   + AFLGo is an extension of American Fuzzy Lop (AFL). Given a set of target locations (e.g., folder/file.c:582), AFLGo generates inputs specifically with the objective to exercise these target locations (https://mboehme.github.io/paper/CCS17.pdf)
 
 
