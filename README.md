@@ -78,6 +78,24 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
 - [AFLGo](https://github.com/aflgo/aflgo) Maintained by [@mboehme](https://github.com/mboehme), [@thuanpv](https://github.com/thuanpv), and [@strongcourage](https://github.com/strongcourage)
   + AFLGo is an extension of American Fuzzy Lop (AFL). Given a set of target locations (e.g., folder/file.c:582), AFLGo generates inputs specifically with the objective to exercise these target locations (https://mboehme.github.io/paper/CCS17.pdf)
 
+- [afl-dyninst](https://github.com/vanhauser-thc/afl-dyninst) Maintained by [van Hauser](https://github.com/vanhauser-thc)
+  + American Fuzzy Lop + Dyninst == AFL Fuzzing blackbox binaries
+  
+- [afl-dynamorio](https://github.com/vanhauser-thc/afl-dynamorio) Maintained by [van Hauser](https://github.com/vanhauser-thc)
+  + run AFL with dynamorio - binary-only fuzzing with dynamorio and afl
+
+- [FairFuzz](https://github.com/carolemieux/afl-rb) Maintained by [Caroline Lemieux](https://github.com/carolemieux)
+  + An AFL extension to increase code coverage by targeting rare branches. FairFuzz has a particular advantage on programs with highly nested structure (packet analyzers, xmllint, programs compiled with laf-inte, etc) (http://www.carolemieux.com/fairfuzz-ase18.pdf)
+  
+- [Superion](https://github.com/zhunki/Superion) Maintained by [zhunki](https://github.com/zhunki/)
+  + Superion is a fuzzer which extends the famous AFL to support structured inputs such as JavaScript and XML (https://2019.icse-conferences.org/track/icse-2019-Technical-Papers#event-overview)
+  
+- [UnTracer-AFL](https://github.com/FoRTE-Research/UnTracer-AFL) Maintained by [FoRTE-Research](https://github.com/FoRTE-Research)
+  + An AFL implementation with UnTracer (our coverage-guided tracer)
+  
+- [neuzz](https://github.com/Dongdongshe/neuzz) Maintained by [Dongdongshe](https://github.com/Dongdongshe)
+  + neural network assisted fuzzer (https://arxiv.org/abs/1807.05620)
+
 
 
 ### Tutorials
