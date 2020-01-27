@@ -97,6 +97,7 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
   + neural network assisted fuzzer (https://arxiv.org/abs/1807.05620)
 
 
+-----------------
 
 ### Tutorials
 - [AFL-Workshop](https://github.com/mykter/afl-training)
