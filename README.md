@@ -64,7 +64,7 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
 - [SharpFuzz: AFL-based fuzz testing for .NET](https://github.com/Metalnem/sharpfuzz) by [Nemanja Mijailovic](https://github.com/Metalnem)
   + SharpFuzz is a tool that brings the power of afl-fuzz to .NET platform (https://mijailovic.net/2019/01/03/sharpfuzz/)
   
-- [Nautilus - a grammar based feedback fuzzer](https://github.com/RUB-SysSec/nautilus) by [Syssec lab of Ruhr university of germany](https://github.com/RUB-SysSec/nautilus) 
+- [Nautilus 2.0 - a grammar based feedback fuzzer](https://github.com/RUB-SysSec/nautilus) by [Syssec lab of Ruhr university of germany](https://github.com/nautilus-fuzz/nautilus) 
   + https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2018/12/17/NDSS19-Nautilus.pdf
   
 - [frida-js-afl-instr](https://github.com/andreafioraldi/frida-js-afl-instr) by [Andrea Fioraldi](https://github.com/andreafioraldi)  
@@ -105,8 +105,7 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
 - [kAFL](https://github.com/RUB-SysSec/kAFL) Maintained by [RUB-SysSec](https://github.com/RUB-SysSec)
   + Blazing fast x86-64 VM kernel fuzzing framework with performant VM reloads for Linux, MacOS and Windows (https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-schumilo.pdf)
 
-- [Nautilus 2.0 - a grammar based feedback fuzzer](https://github.com/RUB-SysSec/nautilus) by [Syssec lab of Ruhr university of germany](https://github.com/nautilus-fuzz/nautilus) 
-  + https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2018/12/17/NDSS19-Nautilus.pdf
+
 
 
 -----------------
