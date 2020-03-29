@@ -105,7 +105,8 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
 - [kAFL](https://github.com/RUB-SysSec/kAFL) Maintained by [RUB-SysSec](https://github.com/RUB-SysSec)
   + Blazing fast x86-64 VM kernel fuzzing framework with performant VM reloads for Linux, MacOS and Windows (https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-schumilo.pdf)
 
-
+- [Nautilus 2.0 - a grammar based feedback fuzzer](https://github.com/RUB-SysSec/nautilus) by [Syssec lab of Ruhr university of germany](https://github.com/nautilus-fuzz/nautilus) 
+  + https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2018/12/17/NDSS19-Nautilus.pdf
 
 
 -----------------
