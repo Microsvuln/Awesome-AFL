@@ -22,7 +22,7 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
 - [AFL-abiondo](https://github.com/abiondo/afl) by [Abiondo](https://github.com/abiondo)
   + Improved version of AFL-Qemu mode (https://abiondo.me/2018/09/21/improving-afl-qemu-mode/)
 
-- [aflsmart](https://github.com/aflsmart/aflsmart) by [Marcel Böhme](https://github.com/mboehme)
+- [aflsmart](https://github.com/aflsmart/aflsmart) by Maintained by [Thuan Pham](https://github.com/thuanpv)
   + Smart Greybox Fuzzing (https://thuanpv.github.io/publications/TSE19_aflsmart.pdf)
   
 - [aflfast](https://github.com/mboehme/aflfast) by [Marcel Böhme](https://github.com/mboehme)
