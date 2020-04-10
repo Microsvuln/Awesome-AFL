@@ -108,7 +108,9 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
 - [AFLNet](https://github.com/aflnet/aflnet) Maintained by [Thuan Pham](https://github.com/thuanpv)
   + AFLNet: A Greybox Fuzzer for Network Protocols
   (https://thuanpv.github.io/publications/AFLNet_ICST20.pdf)
-
+  
+- [Grimoire](https://github.com/RUB-SysSec/grimoire) Maintained by [Tim Blazytko](https://github.com/mrphrazer)
+  + Grimoire: Synthesizing Structure while Fuzzing - Grimoire is coverage-guided fuzzer for structured input languages. It is built upon Redqueen (https://www.usenix.org/system/files/sec19-blazytko.pdf)
 
 
 -----------------
