@@ -175,3 +175,6 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
 - [Fuzzing with AFL](https://breaking-bits.gitbook.io/breaking-bits/vulnerability-discovery/fuzzing-with-afl)
 
 - [Starting fuzz with AFL](https://www.w0lfzhang.com/2017/11/30/Starting-fuzz-with-AFL/)
+
+- [Fuzzing 101](https://github.com/RootUp/PHDays9/blob/master/Slides/Fuzzing-101_PHDays.pdf)
+  + The prime focus of this workshop would be around the following areas: Input-based fuzzing (AFL), finding memory bugs using     ASAN with AFL integration, protocol fuzzing (HTTP, FTP, SMTP). Then we concluded the workshop by showcasing multiple bugs found during their research.
