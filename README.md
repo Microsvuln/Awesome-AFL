@@ -99,8 +99,6 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
 - [FuzzFactory](https://github.com/rohanpadhye/FuzzFactory) Maintained by [Rohan Padhye](https://github.com/rohanpadhye)
   + FuzzFactory is an extension of AFL that generalizes coverage-guided fuzzing to domain-specific testing goals. FuzzFactory allows users to guide the fuzzer's search process without having to modify anything in AFL's search algorithm (https://dl.acm.org/doi/10.1145/3360600)
   
-- [grimoire](https://github.com/RUB-SysSec/grimoire) Maintained by [RUB-SysSec](https://github.com/RUB-SysSec)
-  + Grimoire is coverage-guided fuzzer for structured input languages. It is built upon Redqueen (https://www.usenix.org/system/files/sec19-blazytko.pdf)
   
 - [kAFL](https://github.com/RUB-SysSec/kAFL) Maintained by [RUB-SysSec](https://github.com/RUB-SysSec)
   + Blazing fast x86-64 VM kernel fuzzing framework with performant VM reloads for Linux, MacOS and Windows (https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-schumilo.pdf)
