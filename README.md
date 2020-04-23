@@ -109,6 +109,14 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
   
 - [Grimoire](https://github.com/RUB-SysSec/grimoire) Maintained by [Tim Blazytko](https://github.com/mrphrazer)
   + Grimoire: Synthesizing Structure while Fuzzing - Grimoire is coverage-guided fuzzer for structured input languages. It is built upon Redqueen (https://www.usenix.org/system/files/sec19-blazytko.pdf)
+  
+- [JQF](https://github.com/rohanpadhye/jqf) Maintained by [Rohan Padhye of UC-Berkeley](https://github.com/rohanpadhye)
+  + JQF is a feedback-directed fuzz testing platform for Java, which uses the abstraction of property-based testing. JQF is built on top of junit-quickcheck: a tool for generating random arguments for parametric Junit test methods. JQF enables better input generation using coverage-guided fuzzing algorithms such as Zest. (https://cs.berkeley.edu/~rohanpadhye/files/zest-issta19.pdf)
+  
+- [PerfFuzz](https://github.com/carolemieux/perffuzz) Maintained by [Caroline Lemieux of UC-Berkeley](https://github.com/carolemieux_
+  + PerfFuzz: Automatically Generate Pathological Inputs for C/C++ programs : Performance problems in software can arise unexpectedly when programs are provided with inputs that exhibit pathological behavior. But how can we find these inputs in the first place? PerfFuzz can generate such inputs automatically: given a program and at least one seed input, PerfFuzz automatically generates inputs that exercise pathological behavior across program locations, without any domain knowledge.
+PerfFuzz uses multi-dimensional performance feedback and independently maximizes execution counts for all program locations. This enables PerfFuzz to find a variety of inputs that exercise distinct hot spots in a program. (http://www.carolemieux.com/perffuzz-issta2018.pdf)
+
 
 
 -----------------
