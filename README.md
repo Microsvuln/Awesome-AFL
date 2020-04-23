@@ -84,7 +84,7 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
 - [afl-dynamorio](https://github.com/vanhauser-thc/afl-dynamorio) Maintained by [van Hauser](https://github.com/vanhauser-thc)
   + run AFL with dynamorio - binary-only fuzzing with dynamorio and afl
 
-- [FairFuzz](https://github.com/carolemieux/afl-rb) Maintained by [Caroline Lemieux](https://github.com/carolemieux)
+- [FairFuzz](https://github.com/carolemieux/afl-rb) Maintained by [Caroline Lemieux of UC-Berkeley](https://github.com/carolemieux)
   + An AFL extension to increase code coverage by targeting rare branches. FairFuzz has a particular advantage on programs with highly nested structure (packet analyzers, xmllint, programs compiled with laf-inte, etc) (http://www.carolemieux.com/fairfuzz-ase18.pdf)
   
 - [Superion](https://github.com/zhunki/Superion) Maintained by [zhunki](https://github.com/zhunki/)
