@@ -116,7 +116,8 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
 - [PerfFuzz](https://github.com/carolemieux/perffuzz) Maintained by [Caroline Lemieux of UC-Berkeley](https://github.com/carolemieux)
   + PerfFuzz: Automatically Generate Pathological Inputs for C/C++ programs : Performance problems in software can arise unexpectedly when programs are provided with inputs that exhibit pathological behavior. But how can we find these inputs in the first place? PerfFuzz can generate such inputs automatically: given a program and at least one seed input, PerfFuzz automatically generates inputs that exercise pathological behavior across program locations, without any domain knowledge.PerfFuzz uses multi-dimensional performance feedback and independently maximizes execution counts for all program locations. This enables PerfFuzz to find a variety of inputs that exercise distinct hot spots in a program. (http://www.carolemieux.com/perffuzz-issta2018.pdf)
 
-
+- [Ankou](https://github.com/SoftSec-KAIST/Ankou) Maintained by [Valentin Manès aka Jiliac](https://github.com/Jiliac)
+  + Ankou is a source-based grey-box fuzzer. It intends to use a more rich fitness function by going beyond simple branch coverage and considering the combination of branches during program execution. The details of the technique can be found in our paper "Ankou: Guiding Grey-box Fuzzing towards Combinatorial Difference", which is published in ICSE 2020. (https://www.jiliac.com/files/ankou-icse2020.pdf)
 
 -----------------
 
