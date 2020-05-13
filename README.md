@@ -119,6 +119,9 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
 - [Ankou](https://github.com/SoftSec-KAIST/Ankou) Maintained by [Valentin Manès aka Jilyac](https://github.com/Jiliac)
   + Ankou is a source-based grey-box fuzzer. It intends to use a more rich fitness function by going beyond simple branch coverage and considering the combination of branches during program execution. The details of the technique can be found in our paper "Ankou: Guiding Grey-box Fuzzing towards Combinatorial Difference", which is published in ICSE 2020. (https://www.jiliac.com/files/ankou-icse2020.pdf)
 
+- [Savior](https://github.com/evanmak/savior-source) Maintained by [@yaohway](https://github.com/evanmak)
+  + SAVIOR, a new hybrid testing framework pioneering a bug-driven principle. Unlike the existing hybrid testing tools, SAVIOR prioritizes the concolic execution of the seeds that are likely to uncover more vulnerabilities. Moreover, SAVIOR verifies all vulnerable program locations along the executing program path. By modeling faulty situations using SMT constraints, SAVIOR reasons the feasibility of vulnerabilities and generates concrete test cases as proofs. Our evaluation shows that the bug-driven approach outperforms mainstream automated testing techniques, including state-of-the-art hybrid testing systems driven by code coverage. (https://arxiv.org/pdf/1906.07327.pdf)
+
 -----------------
 
 ### Tutorials
@@ -184,3 +187,6 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
 
 - [Fuzzing 101](https://github.com/RootUp/PHDays9/blob/master/Slides/Fuzzing-101_PHDays.pdf)
   + The prime focus of this workshop would be around the following areas: Input-based fuzzing (AFL), finding memory bugs using     ASAN with AFL integration, protocol fuzzing (HTTP, FTP, SMTP). Then we concluded the workshop by showcasing multiple bugs found during their research.
+  
+- [FUZZING FOR BEGINNERS](https://www.youtube.com/watch?v=O3hb6HV1ZQo&feature=youtu.be) by [Christoffer Jerkeby](https://twitter.com/Kuggofficial)
+  + In this episode of "STÖK, time to learn something new". KUGG (Christoffer Jerkeby) From F-Secure shows STÖK the basics of FUZZING using American Fuzzy lop. They FUZZ a HTTP server and get two crashes, crashes that with the right exploit could give an attacker ROOT access using privilege escalation,  really interesting stuff!.   
