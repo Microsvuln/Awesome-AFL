@@ -190,3 +190,7 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
   
 - [FUZZING FOR BEGINNERS](https://www.youtube.com/watch?v=O3hb6HV1ZQo&feature=youtu.be) by [Christoffer Jerkeby](https://twitter.com/Kuggofficial)
   + In this episode of "STÖK, time to learn something new". KUGG (Christoffer Jerkeby) From F-Secure shows STÖK the basics of FUZZING using American Fuzzy lop. They FUZZ a HTTP server and get two crashes, crashes that with the right exploit could give an attacker ROOT access using privilege escalation,  really interesting stuff!.   
+  
+- [F-Secure Labs Fuzzing C Programs Pasi & Kugg](https://www.youtube.com/watch?v=_ngq3yL0dkg) by Christoffer Jerkeby [@kuggofficial](https://twitter.com/Kuggofficial) and Pasi Saarinen [@pasi_s7](https://twitter.com/Pasi_S7)
+  + A webinar covering how to get started with fuzzing, strategies software and experiences
+  
