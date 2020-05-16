@@ -121,6 +121,13 @@ A curated list of different AFL forks and AFL inspired fuzzers with detailed equ
 
 - [Savior](https://github.com/evanmak/savior-source) Maintained by [@yaohway](https://github.com/evanmak)
   + SAVIOR, a new hybrid testing framework pioneering a bug-driven principle. Unlike the existing hybrid testing tools, SAVIOR prioritizes the concolic execution of the seeds that are likely to uncover more vulnerabilities. Moreover, SAVIOR verifies all vulnerable program locations along the executing program path. By modeling faulty situations using SMT constraints, SAVIOR reasons the feasibility of vulnerabilities and generates concrete test cases as proofs. Our evaluation shows that the bug-driven approach outperforms mainstream automated testing techniques, including state-of-the-art hybrid testing systems driven by code coverage. (https://arxiv.org/pdf/1906.07327.pdf)
+  
+- [T-Fuzz](https://github.com/HexHive/T-Fuzz) Maintained by [@HexHive](https://github.com/HexHive)
+  + To improve coverage, existing approaches rely on imprecise heuristics or complex input mutation techniques (e.g., symbolic
+execution or taint analysis) to bypass sanity checks. Our novel method tackles coverage from a different angle: by removing sanity checks in the target program. T-Fuzz leverages a coverage guided fuzzer to generate inputs. Whenever the fuzzer can
+no longer trigger new code paths, a light-weight, dynamic tracing based technique detects the input checks that the fuzzergenerated inputs fail. These checks are then removed from the target program. Fuzzing then continues on the transformed
+program, allowing the code protected by the removed checks to be triggered and potential bugs discovered.
+Fuzzing transformed programs to find bugs poses two challenges: (1) removal of checks leads to over-approximation andfalse positives, and (2) even for true bugs, the crashing input on the transformed program may not trigger the bug in the original program. As an auxiliary post-processing step, T-Fuzz leverages a symbolic execution-based approach to filter out false positives and reproduce true bugs in the original program. (https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8418632)
 
 -----------------
 
