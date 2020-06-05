@@ -129,6 +129,9 @@ no longer trigger new code paths, a light-weight, dynamic tracing based techniqu
 program, allowing the code protected by the removed checks to be triggered and potential bugs discovered.
 Fuzzing transformed programs to find bugs poses two challenges: (1) removal of checks leads to over-approximation andfalse positives, and (2) even for true bugs, the crashing input on the transformed program may not trigger the bug in the original program. As an auxiliary post-processing step, T-Fuzz leverages a symbolic execution-based approach to filter out false positives and reproduce true bugs in the original program. (https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8418632)
 
+- [afl-compiler-fuzzer](https://github.com/agroce/afl-compiler-fuzzer) Maintained by [Alex Groce](https://github.com/agroce) from [TrailOfBits](https://github.com/trailofbits)
+  + This is basically afl, run as usual, except that the afl-fuzz-compiler executable should (considerably) improve effectveness when fuzzing any target that takes C-like (in terms of syntax, e.g., Java, Solidity, Rust, C#, Swift, Javascript, Scala, etc. etc.) language files as input. 
+
 -----------------
 
 ### Tutorials
