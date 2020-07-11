@@ -131,6 +131,11 @@ Fuzzing transformed programs to find bugs poses two challenges: (1) removal of c
 
 - [afl-compiler-fuzzer](https://github.com/agroce/afl-compiler-fuzzer) Maintained by [Alex Groce](https://github.com/agroce) from [TrailOfBits](https://github.com/trailofbits)
   + This is basically afl, run as usual, except that the afl-fuzz-compiler executable should (considerably) improve effectveness when fuzzing any target that takes C-like (in terms of syntax, e.g., Java, Solidity, Rust, C#, Swift, Javascript, Scala, etc. etc.) language files as input. 
+  
+- [Eclipser](https://github.com/SoftSec-KAIST/Eclipser)  Maintained by [KAIST-Softsec Lab](https://github.com/SoftSec-KAIST)
+  + Eclipser is a binary-based fuzz testing tool that improves upon classic coverage-based fuzzing by leveraging a novel technique called grey-box concolic testing. The details of the technique can be found in our paper ["Grey-box Concolic Testing on Binary Code"](https://softsec.kaist.ac.kr/~jschoi/data/icse2019.pdf), which is published in ICSE 2019.
+
+
 
 -----------------
 
@@ -208,3 +213,5 @@ Fuzzing transformed programs to find bugs poses two challenges: (1) removal of c
 ](https://twitter.com/vegard_no)
   + American Fuzzy Lop is a great tool. It does take a little bit of extra setup and tweaking if you want to go into advanced usage, but mostly it just works out of the box. In this post, I’ll detail some of the steps you need to get started with fuzzing the OpenSSH daemon (sshd) and show you some tricks that will help get results more quickly. The AFL home page already displays 4 OpenSSH bugs in its trophy case; these were found by Hanno Böck who used an approach similar to that outlined by Jonathan Foote on how to fuzz servers with AFL.
 I take a slightly different approach, which I think is simpler: instead of intercepting system calls to fake network activity, we just run the daemon in “inetd mode”. The inet daemon is not used very much anymore on modern Linux distributions, but the short story is that it sets up the listening network socket for you and launches a new process to handle each new incoming connection. inetd then passes the network socket to the target program as stdin/stdout. Thus, when sshd is started in inet mode, it communicates with a single client over stdin/stdout, which is exactly what we need for AFL.
+
+- [Fuzzing FastCGI With AFL-Fuzz](https://medium.com/@omaidfaizyar/fuzzing-fastcgi-an-odyssey-4ffc1c72a732) by [Omaid Faizyar](https://medium.com/@omaidfaizyar)
