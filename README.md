@@ -135,6 +135,8 @@ Fuzzing transformed programs to find bugs poses two challenges: (1) removal of c
 - [Eclipser](https://github.com/SoftSec-KAIST/Eclipser)  Maintained by [KAIST-Softsec Lab](https://github.com/SoftSec-KAIST)
   + Eclipser is a binary-based fuzz testing tool that improves upon classic coverage-based fuzzing by leveraging a novel technique called grey-box concolic testing. The details of the technique can be found in our paper ["Grey-box Concolic Testing on Binary Code"](https://softsec.kaist.ac.kr/~jschoi/data/icse2019.pdf), which is published in ICSE 2019.
 
+- [Parmesan](https://github.com/vusec/parmesan) Maintained by [Sebastian Österlund](https://github.com/sirmc) of [VUSEC](https://github.com/vusec)
+  + ParmeSan is a sanitizer-guided greybox fuzzer based on Angora. we present sanitizer-guided fuzzing, a new design point in this space that specifically optimizes for bug coverage. For this purpose, we make the key observation that while the instrumentation performed by existing software sanitizers are regularly used for detecting fuzzer-induced error conditions, they can further serve as a generic and effective mechanism to identify interesting basic blocks for guiding fuzzers. We present the design and implementation of ParmeSan, a new sanitizer-guided fuzzer that builds on this observation. We show that ParmeSan greatly reduces the TTE of real-world bugs, and finds bugs 37% faster than existing state-of-the-art coverage-based fuzzers (Angora) and 288% faster than directed fuzzers (AFLGo), while still covering the same set of bugs. [ParmeSan: Sanitizer-guided Greybox Fuzzing](https://download.vusec.net/papers/parmesan_sec20.pdf)
 
 
 -----------------
