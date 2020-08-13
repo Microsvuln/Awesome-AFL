@@ -147,6 +147,9 @@ Fuzzing transformed programs to find bugs poses two challenges: (1) removal of c
 - [Kirenenko](https://github.com/ChengyuSong/Kirenenko) by [Chengyu Song](https://github.com/ChengyuSong/Kirenenko) from University of California, Riverside
   + Super Fast Concolic Execution Engine based on Source Code Taint Tracing
 
+- [UAFuzz](https://github.com/strongcourage/uafuzz) by [@strongcourage](https://github.com/strongcourage)
+  + Binary-level Directed Fuzzing for Use-After-Free Vulnerabilities, built on top of AFL-QEMU.
+
 -----------------
 
 ### Tutorials
