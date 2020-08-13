@@ -143,6 +143,9 @@ Fuzzing transformed programs to find bugs poses two challenges: (1) removal of c
 
 - [MOpt-AFL](https://github.com/Microsvuln/MOpt-AFL) by [puppet-meteor](https://github.com/puppet-meteor)
   + MOpt-AFL is a AFL-based fuzzer that utilizes a customized Particle Swarm Optimization (PSO) algorithm to find the optimal selection probability distribution of operators with respect to fuzzing effectiveness. More details can be found in the technical report. The installation of MOpt-AFL is the same as AFL's. [MOpt: Optimized Mutation Scheduling for Fuzzers](https://www.usenix.org/system/files/sec19-lyu.pdf)
+  
+- [Kirenenko](https://github.com/ChengyuSong/Kirenenko) by [Chengyu Song](https://github.com/ChengyuSong/Kirenenko) from University of California, Riverside
+  + Super Fast Concolic Execution Engine based on Source Code Taint Tracing
 
 -----------------
 
