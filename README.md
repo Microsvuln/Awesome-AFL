@@ -149,6 +149,10 @@ Fuzzing transformed programs to find bugs poses two challenges: (1) removal of c
 
 - [UAFuzz](https://github.com/strongcourage/uafuzz) by [@strongcourage](https://github.com/strongcourage)
   + Binary-level Directed Fuzzing for Use-After-Free Vulnerabilities, built on top of AFL-QEMU.
+  
+- [Intriguer](https://github.com/seclab-yonsei/intriguer) by [Seclab@Yonsei University](https://github.com/seclab-yonsei)
+  + Hybrid fuzzing, which combines fuzzing and concolic execution, is promising in light of the recent performance improvements in concolic engines. We have observed that there is room for further improvement: symbolic emulation is still slow, unnecessary constraints dominate solving time, resources are overly allocated, and hard-to-trigger bugs are missed. To address these problems, we present a new hybrid fuzzer named Intriguer. The key idea of Intriguer is field-level constraint solving, which optimizes symbolic execution with field-level knowledge. Intriguer performs instruction-level taint analysis and records execution traces without data transfer instructions like mov. Intriguer then reduces the execution traces for tainted instructions that accessed a wide range of input bytes, and infers input fields to build field transition trees. With these optimizations, Intriguer can efficiently perform symbolic emulation for more relevant instructions and invoke a solver for complicated constraints only. Our evaluation results indicate that Intriguer outperforms the state-of-the-art fuzzers: Intriguer found all the bugs in the LAVAM(5h) benchmark dataset for ground truth performance, and also discovered 43 new security bugs in seven real-world programs. We reported the bugs and received 23 new CVEs. [Intriguer: Field-Level Constraint Solving for Hybrid Fuzzing](https://wcventure.github.io/FuzzingPaper/Paper/CCS19_Intriguer.pdf)
+
 
 -----------------
 
