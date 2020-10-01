@@ -156,6 +156,8 @@ Fuzzing transformed programs to find bugs poses two challenges: (1) removal of c
 - [TinyAFL](https://github.com/linhlhq/TinyAFL) by [linhlhq](https://github.com/linhlhq)  
   + TinyAFL is built on top of AFL and TinyInst. It can be fuzz on windows user-mode application without source (supports both x32 and x64) but it is not so reliable and dirty. 
 
+- [Haze](https://github.com/richinseattle/haze) by [Richard Johnson](https://twitter.com/richinseattle)
+  + Haze is a binary fuzzer. This is a fuzzer for Windows based on TinyInst Current version is a modification of litecov to perform fuzzing Fuzzer currently sorts input dir by smalles size and for each input if new coverage is found, it is added to the working queue Queue contents can be added to dynamically.
 
 -----------------
 
