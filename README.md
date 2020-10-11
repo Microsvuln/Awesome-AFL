@@ -158,6 +158,10 @@ Fuzzing transformed programs to find bugs poses two challenges: (1) removal of c
 
 - [Haze](https://github.com/richinseattle/haze) by [Richard Johnson](https://twitter.com/richinseattle)
   + Haze is a binary fuzzer. This is a fuzzer for Windows based on TinyInst Current version is a modification of litecov to perform fuzzing Fuzzer currently sorts input dir by smalles size and for each input if new coverage is found, it is added to the working queue Queue contents can be added to dynamically.
+  
+- [DeepFuzzer](https://github.com/Ljiee/deepfuzz) by [Ljiee](https://github.com/Ljiee)
+  + In this paper, we present DeepFuzzer, an enhanced greybox fuzzer with qualiﬁed seed generation, balanced seed selection, and hybrid seed mutation. First, we use symbolic execution in a lightweight approach to generate qualiﬁed initial seeds which then guide the fuzzer through complex checks. Second, we apply a statistical seed selection algorithm to balance the mutation frequency between different seeds. Further, we develop a hybrid mutation strategy. The random and restricted mutation strategies are combined to maintain a dynamic balance between global exploration and deep search . [DeepFuzzer: Accelerated Deep Greybox Fuzzing](https://commons.erau.edu/cgi/viewcontent.cgi?article=2462&context=publication)
+  
 
 -----------------
 
