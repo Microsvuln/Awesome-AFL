@@ -241,3 +241,5 @@ Fuzzing transformed programs to find bugs poses two challenges: (1) removal of c
 I take a slightly different approach, which I think is simpler: instead of intercepting system calls to fake network activity, we just run the daemon in “inetd mode”. The inet daemon is not used very much anymore on modern Linux distributions, but the short story is that it sets up the listening network socket for you and launches a new process to handle each new incoming connection. inetd then passes the network socket to the target program as stdin/stdout. Thus, when sshd is started in inet mode, it communicates with a single client over stdin/stdout, which is exactly what we need for AFL.
 
 - [Fuzzing FastCGI With AFL-Fuzz](https://medium.com/@omaidfaizyar/fuzzing-fastcgi-an-odyssey-4ffc1c72a732) by [Omaid Faizyar](https://medium.com/@omaidfaizyar)
+
+- [Fuzzing Image Parsing in Windows, Part One: Color Profiles](https://www.fireeye.com/blog/threat-research/2020/09/fuzzing-image-parsing-in-windows-color-profiles.html)
