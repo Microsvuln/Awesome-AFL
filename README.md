@@ -165,6 +165,10 @@ Fuzzing transformed programs to find bugs poses two challenges: (1) removal of c
 - [MUEZZ](https://github.com/RiS3-Lab/muse) by [RiS3 Lab Of Northeastern University](https://github.com/RiS3-Lab)
   + Seed scheduling is a prominent factor in determining the yields of hybrid fuzzing. Existing hybrid fuzzers schedule seeds based on fixed heuristics that aim to predict input utilities. However, such heuristics are not generalizable as there exists no one-size-fits-all rule applicable to different programs. They may work well on the programs from which they were derived, but not others. To overcome this problem, we design a Machine learning-Enhanced hybrid fUZZing system (MEUZZ), which employs supervised machine learning for adaptive and generalizable seed scheduling. MEUZZ determines which new seeds are expected to produce better fuzzing yields based on the knowledge learned from past seed scheduling decisions made on the same or similar programs. MEUZZ's learning is based on a series of features extracted via code reachability and dynamic analysis, which incurs negligible runtime overhead (in microseconds). Moreover, MEUZZ automatically infers the data labels by evaluating the fuzzing performance of each selected seed. [MEUZZ: Smart Seed Scheduling for Hybrid Fuzzing](https://yaohway.github.io/meuzz.pdf)
   
+- [winafl-powermopt](https://github.com/hardik05/winafl-powermopt) by [Hardik Shah]
+  + winafl with mopt mutators and afl fast power schedulers
+
+
 
 -----------------
 
