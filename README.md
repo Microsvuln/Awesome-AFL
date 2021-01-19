@@ -168,6 +168,8 @@ Fuzzing transformed programs to find bugs poses two challenges: (1) removal of c
 - [winafl-powermopt](https://github.com/hardik05/winafl-powermopt) by [Hardik Shah](https://github.com/hardik05)
   + winafl with mopt mutators and afl fast power schedulers
 
+- [SymQEMU](https://github.com/eurecom-s3/symqemu) by [Sebastian Poeplau](https://github.com/sebastianpoeplau) and [Aurélien Francillon](https://twitter.com/aurelsec)
+ + Symbolic execution is a powerful technique for software analysis and bug detection. Compilation-based symbolic execution is a recently proposed flavor that has been shown to improve the performance of symbolic execution significantly when source code is available. We demonstrate a novel technique to enable compilation-based symbolic execution of binaries (i.e., without the need for source code). Our system, SymQEMU, builds on top of QEMU, modifying the intermediate representation of the target program before translating it to the host architecture. This enables SymQEMU to compile symbolic-execution capabilities into binaries and reap the associated performance benefits while maintaining architecture independence. We present our approach and implementation, and we show that it outperforms the state-of-the-art binary symbolic executors S2E and QSYM with statistical significance; on some benchmarks, it even achieves better performance than the source-based SymCC. Moreover, our tool has found a previously unknown vulnerability in the well-tested libarchive library, demonstrating its utility in testing real-world software. [SymQEMU - Compilation-based symbolic execution for binaries](http://s3.eurecom.fr/docs/ndss21_symqemu.pdf)
 
 
 -----------------
