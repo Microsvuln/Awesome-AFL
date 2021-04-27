@@ -174,6 +174,11 @@ Fuzzing transformed programs to find bugs poses two challenges: (1) removal of c
 - [uAFL - Typestate-Guided Fuzzer for Discovering Use-after-Free Vulnerabilities ](https://yuleisui.github.io/publications/icse20.pdf) 
   + Existing coverage-based fuzzers usually use the individual control flow graph (CFG) edge coverage to guide the fuzzing process, which has shown great potential in finding vulnerabilities. However, CFG edge coverage is not effective in discovering vulnerabilities such as use-after-free (UaF). This is because, to trigger UaF vulnerabilities, one needs not only to cover individual edges, but also to traverse some (long) sequence of edges in a particular order, which is challenging for existing fuzzers. To this end, we propose to model UaF vulnerabilities as typestate properties, and develop a typestateguided fuzzer, named UAFL, for discovering vulnerabilities violating typestate properties. Given a typestate property, we first perform a static typestate analysis to find operation sequences potentially violating the property. Our fuzzing process is then guided by the operation sequences in order to progressively generate test cases triggering property violations. In addition, we also employ an information flow analysis to improve the efficiency of the fuzzing process. We have performed a thorough evaluation of UAFL on 14 widely-used real-world programs. The experiment results show that UAFL substantially outperforms the state-of-the-art fuzzers, including AFL, AFLFast, FairFuzz, MOpt, Angora and QSYM, in terms of the time taken to discover vulnerabilities. We have discovered 10 previously unknown vulnerabilities, and received 5 new CVEs.
 
+
+- [fuzzilli](https://github.com/googleprojectzero/fuzzilli) maintained by [Samuel Groß](https://github.com/saelo) from Google Project Zero
+  + A (coverage-)guided fuzzer for dynamic language interpreters based on a custom intermediate language ("FuzzIL") which can be mutated and translated to JavaScript.
+
+
 -----------------
 
 ### Tutorials
