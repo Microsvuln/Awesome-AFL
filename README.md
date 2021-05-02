@@ -178,6 +178,11 @@ Fuzzing transformed programs to find bugs poses two challenges: (1) removal of c
 - [fuzzilli](https://github.com/googleprojectzero/fuzzilli) maintained by [Samuel Groß](https://github.com/saelo) from Google Project Zero
   + A (coverage-)guided fuzzer for dynamic language interpreters based on a custom intermediate language ("FuzzIL") which can be mutated and translated to JavaScript.
 
+- [winnie](https://github.com/sslab-gatech/winnie) by [SSLab of Georgia Tech University](https://gts3.org/)
+  + [WINNIE : Fuzzing Windows Applications with Harness Synthesis and Fast Cloning](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_6A-3_24334_paper.pdf)
+  + In this paper, we propose two solutions to address the challenges Windows fuzzing faces. Our system, WINNIE, first tries to synthesize a harness for the application, a simple program that directly invokes target functions, based on sample executions. It then tests the harness, instead of the original complicated program, using an efficient implementation of fork on Windows. Using these techniques, WINNIE can bypass irrelevant GUI code to test logic deep within the application. We used WINNIE to fuzz 59 closed-source Windows binaries, and it successfully generated valid fuzzing harnesses for all of them. In our evaluation, WINNIE can support 2.2x more programs than existing Windows fuzzers could, and identified 3.9x more program states and achieved 26.6x faster execution. In total, WINNIE found 61 unique bugs in 32 Windows binaries.
+
+
 
 -----------------
 
