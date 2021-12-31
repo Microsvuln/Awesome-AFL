@@ -1,7 +1,7 @@
 # Awesome-AFL
 Welcome to Awesome AFL 
 ========================================================
-A curated list of different AFL forks and AFL inspired fuzzers with detailed equivalent academic papers with AFL-fuzzing tutorials
+A curated list of different AFL forks and AFL inspired fuzzers with detailed equivalent academic papers including AFL-fuzzing tutorials
 
 ### Projects
 - [AFL](http://lcamtuf.coredump.cx/afl/) by [Michal Zalewski](http://lcamtuf.coredump.cx/)
