@@ -200,6 +200,8 @@ Fuzzing transformed programs to find bugs poses two challenges: (1) removal of c
 several forms of feedback mechanisms, motivated by the
 fact that for a large range of programs and libraries, edgecoverage alone is insufficient to reveal complicated bugs. Inspired by this line of research, we examined existing program representations looking for a match between expressiveness of the structure and adaptability to the context of fuzz testing. In particular, we believe that data dependency graphs (DDGs) represent a good candidate for this task, as the set of information embedded by this data structure is potentially useful to find vulnerable constructs by stressing combinations of def-use pairs that would be difficult for a traditional fuzzer to trigger. Since some portions of the dependency graph overlap with the control flow of the program, it is possible to reduce the additional instrumentation to cover only “interesting” data-flow dependencies, those that help the fuzzer to visit the code in a distinct way compared to standard methodologies.
 
+- [Registered Report: DATAFLOW Towards a Data-Flow-Guided Fuzzer](https://www.ndss-symposium.org/wp-content/uploads/fuzzing2022_23001_paper.pdf) by [Adrian Herrera](https://github.com/adrianherrera) from [Engineering & Computer Science at ANU](https://cecs.anu.edu.au/)
+
 -----------------
 
 ### Tutorials
