@@ -155,9 +155,6 @@ Fuzzing transformed programs to find bugs poses two challenges: (1) removal of c
   
 - [TinyAFL](https://github.com/linhlhq/TinyAFL) by [linhlhq](https://github.com/linhlhq)  
   + TinyAFL is built on top of AFL and TinyInst. It can be fuzz on windows user-mode application without source (supports both x32 and x64) but it is not so reliable and dirty. 
-
-- [Haze](https://github.com/richinseattle/haze) by [Richard Johnson](https://twitter.com/richinseattle)
-  + Haze is a binary fuzzer. This is a fuzzer for Windows based on TinyInst Current version is a modification of litecov to perform fuzzing Fuzzer currently sorts input dir by smalles size and for each input if new coverage is found, it is added to the working queue Queue contents can be added to dynamically.
   
 - [DeepFuzzer](https://github.com/Ljiee/deepfuzz) by [Ljiee](https://github.com/Ljiee)
   + In this paper, we present DeepFuzzer, an enhanced greybox fuzzer with qualiﬁed seed generation, balanced seed selection, and hybrid seed mutation. First, we use symbolic execution in a lightweight approach to generate qualiﬁed initial seeds which then guide the fuzzer through complex checks. Second, we apply a statistical seed selection algorithm to balance the mutation frequency between different seeds. Further, we develop a hybrid mutation strategy. The random and restricted mutation strategies are combined to maintain a dynamic balance between global exploration and deep search . [DeepFuzzer: Accelerated Deep Greybox Fuzzing](https://commons.erau.edu/cgi/viewcontent.cgi?article=2462&context=publication)
@@ -202,6 +199,11 @@ fact that for a large range of programs and libraries, edgecoverage alone is ins
 
 - [Registered Report: DATAFLOW Towards a Data-Flow-Guided Fuzzer](https://www.ndss-symposium.org/wp-content/uploads/fuzzing2022_23001_paper.pdf) by [Adrian Herrera](https://github.com/adrianherrera) from [Engineering & Computer Science at ANU](https://cecs.anu.edu.au/)
   + We present [datAFLow](https://github.com/HexHive/datAFLow), a greybox fuzzer driven by lightweight data-flow profiling. Whereas control-flow edges represent the order of operations in a program, data-flow edges capture the dependencies between operations that produce data values and the operations that consume them: indeed, there may be no control dependence between those operations. As such, data-flow coverage captures behaviors not visible as control flow and intuitively discovers more or different bugs. Moreover, we establish a framework for reasoning about data-flow coverage, allowing the computational cost of exploration to be balanced with precision
+
+- [sFuzz](https://github.com/seal9055/sfuzz) by [seal9055](https://twitter.com/seal9055)
+  + This is a coverage-guided, emulation based greybox fuzzer that makes use of a custom Just-In-Time compiler to achieve near-native performance. It works by lifting RISC-V elf binaries to an intermediate representation before JIT compiling them to x86 during execution. During JIT compilation the code is instrumented to enable fuzzing-improvements such as coverage tracking, asan, cmpcov, or snapshot-based fuzzing.
+
+
 
 -----------------
 
