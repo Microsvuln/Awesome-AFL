@@ -202,6 +202,11 @@ fact that for a large range of programs and libraries, edgecoverage alone is ins
 
 - [sFuzz](https://github.com/seal9055/sfuzz) by [seal9055](https://twitter.com/seal9055)
   + This is a coverage-guided, emulation based greybox fuzzer that makes use of a custom Just-In-Time compiler to achieve near-native performance. It works by lifting RISC-V elf binaries to an intermediate representation before JIT compiling them to x86 during execution. During JIT compilation the code is instrumented to enable fuzzing-improvements such as coverage tracking, asan, cmpcov, or snapshot-based fuzzing.
+  
+- [LibAFL](https://github.com/AFLplusplus/LibAFL) Advanced Fuzzing Library - Slot your Fuzzer together in Rust! Scales across cores and machines. For Windows, Android, MacOS, Linux, no_std, ...
+  - [LibAFL: A Framework to Build Modular and Reusable Fuzzers](https://www.s3.eurecom.fr/docs/ccs22_fioraldi.pdf) 
+  
+
 
 
 
