@@ -207,7 +207,8 @@ fact that for a large range of programs and libraries, edgecoverage alone is ins
 - [LibAFL](https://github.com/AFLplusplus/LibAFL) Advanced Fuzzing Library - Slot your Fuzzer together in Rust! Scales across cores and machines. For Windows, Android, MacOS, Linux, no_std, ...
   - [LibAFL: A Framework to Build Modular and Reusable Fuzzers](https://www.s3.eurecom.fr/docs/ccs22_fioraldi.pdf) 
   
-
+- [stateafl](https://github.com/stateafl/stateafl) by Roberto Natella
+  + StateAFL is a fuzzer designed for network servers. It extends the original idea of the AFL fuzzer, which automatically evolves fuzz inputs to maximize code coverage. In addition to code coverage, StateAFL seeks to maximize protocol state coverage. The aim of this tool is to contribute towards a completely-automated solution for stateful protocol fuzzing (similarly to what AFL was able to achieve for stateless programs) and to promote a wider application of fuzzing in real-world systems. The fuzzer does not require developers to implement custom message parsers for the protocol under test. StateAFL automatically infers the current protocol state of the server. At compile-time, it instruments the target server with probes on memory allocations and network I/O operations. At run-time, it takes snapshots of long-lived data within process memory for each protocol iteration (see figure), and it applies fuzzy hashing to map the in-memory state to a unique protocol state.
 
 
 
