@@ -219,6 +219,9 @@ fact that for a large range of programs and libraries, edgecoverage alone is ins
 -----------------
 
 ### Tutorials
+- [A Look at AFL++ Under The Hood](https://blog.ritsec.club/posts/afl-under-hood/)
+  + The objective of this post is to allow anyone to gain an understanding of AFL at the level they want. I want to cover AFL at both a usage level and an internals level.
+  
 - [AFL-Workshop](https://github.com/mykter/afl-training)
   + Materials of the "Fuzzing with AFL" workshop by Michael Macnair (@michael_macnair)
   
